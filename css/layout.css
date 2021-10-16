@@ -1,0 +1,94 @@
+.mt-5 {
+	margin-top: 5em;
+}
+
+.landing {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	position: absolute;
+	bottom: 54%;
+}
+
+.short-bio {
+	position: absolute;
+	bottom: 27%;
+}
+
+.landing-down-arrow {
+	position: absolute;
+	bottom: 6%;
+}
+
+.section-container {
+	backdrop-filter: blur(10px);
+	height: 100%;
+	display: flex;
+}
+
+.bio-title-left {
+	position: absolute;
+	left: 5%;
+	bottom: 49%;
+}
+.bio-title-right {
+	position: absolute;
+	right: 5%;
+	bottom: 49%;
+}
+.bio-right {
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	border-radius: 5px;
+}
+
+.bio-left {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	border-radius: 5px;
+}
+
+.skill-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.portfolio-title {
+	position: absolute;
+	top: 20%;
+	margin-bottom: 30px;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.portfolio-grid {
+	position: absolute;
+	top: 40%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.portfolio-item-box {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.social-grid {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}

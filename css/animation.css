@@ -1,0 +1,25 @@
+.landing-down-arrow {
+	animation: bounce 2.9s linear infinite;
+	cursor: pointer;
+}
+
+@keyframes bounce {
+	from {
+		color: indigo;
+	}
+	0% {
+		color: rgb(255, 0, 0);
+		margin-bottom: 1.5em;
+	}
+	50% {
+		color: rgb(0, 247, 255);
+		margin-bottom: 0px;
+	}
+	75% {
+		color: rgb(255, 0, 0);
+	}
+}
+
+.title:hover {
+	color: rgb(255, 211, 253);
+}

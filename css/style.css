@@ -1,0 +1,86 @@
+.landing {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.title {
+	margin: 0 1rem;
+	font-size: 6.5em;
+}
+
+.short-bio {
+	font-size: 2em;
+	padding: 1.4em 1.9em;
+}
+
+.landing-down-arrow {
+	font-size: 3em;
+	align-self: flex-end;
+}
+
+.bio-title {
+	margin: 0 1rem;
+	font-size: 4.5em;
+	letter-spacing: 0.09em;
+}
+
+.bio {
+	font-size: 1.2em;
+	padding: 1em 1.3em;
+	background-color: rgb(0, 0, 0, 0.5);
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 55%;
+	padding: 0 3em 2em 2.2em;
+}
+
+.bio-field {
+	max-width: 100%;
+	margin-top: 1em;
+}
+
+.skills-grid {
+	height: 70%;
+	width: 63%;
+	display: flex;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.skill-box {
+	height: 11em;
+	width: 11em;
+	background-color: rgba(0, 0, 0, 0.842);
+	margin: 0px 1em 0 0;
+	border-radius: 5px;
+}
+
+.portfolio-title {
+	margin: 0 1rem;
+	font-size: 4.5em;
+	letter-spacing: 0.09em;
+}
+
+.portfolio-item-box {
+	height: 17em;
+	width: 22em;
+	background-color: rgba(0, 0, 0, 0.842);
+	margin: 0px 1em 0 0;
+	border-radius: 5px;
+	padding: 1em;
+}
+
+.social-link {
+	font-size: 7em;
+	color: rgba(255, 0, 85, 0.363);
+	margin: 0.7em;
+}
+
+.copyright {
+	position: absolute;
+	bottom: 5%;
+	color: white;
+	font-size: 1em;
+}
